@@ -1,0 +1,39 @@
+.bd{
+  border: 1px solid #f0f;
+  overflow: hidden;
+  border-radius: 0.2em;
+}
+
+.collapse-anime {
+  animation-name: animate;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+  animation-direction: alternate;
+}
+
+.collapsedLabel {
+  animation-name: collapsedLabel;
+}
+
+.expandedLabel {
+  animation-name: expandedLabel;
+}
+
+@keyframes collapsedLabel {
+  0% {
+    height: 100%;
+  }
+  100% {
+    height: 0px;
+  }
+}
+
+@keyframes expandedLabel {
+  0% {
+    height: 0px;
+  }
+  100% {
+    height: 100%;
+  }
+}

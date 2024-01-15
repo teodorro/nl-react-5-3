@@ -40,3 +40,15 @@
 .read-the-docs {
   color: #888;
 }
+
+.collapse-btn {
+  background-color: #269;
+  margin: 1em;
+}
+.collapse-btn:focus{
+  outline: none;
+}
+
+.hardcode-height {
+  height: 100px;
+}
